@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Document Summary Assistant</h1>
+      {/* <h1>Document Summary Assistant</h1> */}
       <FileUpload /> {/* Render the FileUpload component */}
     </>
   );

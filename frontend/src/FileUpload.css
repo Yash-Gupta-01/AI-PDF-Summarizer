@@ -1,0 +1,90 @@
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background: #ffffff; /* Changed to white for better contrast */
+  padding: 30px; /* Increased padding */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  width: 90%; /* Adjusted width */
+  max-width: 900px; /* Increased max width */
+}
+
+.upload-container {
+  text-align: center;
+}
+
+.upload-container h2 {
+  margin-bottom: 25px; /* Increased margin */
+  color: #2e130c; /* Darker color for better visibility */
+}
+
+.upload-container input[type="file"] {
+  margin-bottom: 25px; /* Increased margin */
+}
+
+.upload-container button {
+  background-color: #007bff; /* Changed to a vibrant blue */
+  color: #fff;
+  border: none;
+  padding: 12px 24px; /* Increased padding */
+  border-radius: 8px; /* More rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.upload-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-box {
+  background: #f9f9f9; /* Light background for text boxes */
+  border-radius: 10px; /* More rounded corners */
+  padding: 20px; /* Increased padding */
+  margin: 15px 0; /* Increased margin */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  max-height: 300px; /* Set a max height for text boxes */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.scrollable-container {
+  max-height: 250px; /* Increased max height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 15px; /* Increased margin */
+}
+
+.copy-button {
+  background-color: #28a745; /* Changed to a green color */
+  color: white;
+  border: none;
+  padding: 12px; /* Increased padding */
+  border-radius: 8px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.copy-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px; /* Increased margin */
+  color: #2e130c; /* Darker color for better visibility */
+}
