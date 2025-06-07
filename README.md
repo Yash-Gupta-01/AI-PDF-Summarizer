@@ -58,6 +58,3 @@ frontend/  # React app (Vite), user interface for uploading and viewing summarie
 ## Requirements
 - Node.js (v16 or higher recommended)
 - npm
-
-## License
-MIT
